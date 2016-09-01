@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController1" customModule="MillennialMagnateGroup" customModuleProvider="target">
+            <connections>
+                <outlet property="Growing" destination="UkG-oX-iZG" id="Qc4-QU-jJ4"/>
+                <outlet property="Image" destination="0sO-Db-yGj" id="DhV-EA-0qQ"/>
+                <outlet property="Strong" destination="vjT-ua-4Ty" id="B1I-nc-8S5"/>
+                <outlet property="Trusted" destination="P8G-N7-tCh" id="EnX-xr-lBg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stock Option 1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0sO-Db-yGj">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjT-ua-4Ty">
+                    <rect key="frame" x="43" y="55" width="134" height="49"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8G-N7-tCh">
+                    <rect key="frame" x="43" y="121" width="134" height="38"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UkG-oX-iZG">
+                    <rect key="frame" x="43" y="184" width="134" height="38"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.49879831678730913" green="1" blue="0.56468889559058533" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="0sO-Db-yGj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="64w-bE-hdS"/>
+                <constraint firstItem="0sO-Db-yGj" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="8ua-CN-iIU"/>
+                <constraint firstItem="0sO-Db-yGj" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="CVF-Y3-eLQ"/>
+                <constraint firstItem="0sO-Db-yGj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ZOZ-OY-GwW"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Stock Option 1.jpg" width="534" height="401"/>
+    </resources>
+</document>

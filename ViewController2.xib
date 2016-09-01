@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController2" customModule="MillennialMagnateGroup" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="XEF-E3-JRI" id="Hog-7g-a1i"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XEF-E3-JRI">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="538"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOy-U3-EeM">
+                    <rect key="frame" x="0.0" y="0.0" width="53" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="0qa-P6-EAt"/>
+                        <constraint firstAttribute="width" constant="53" id="IFZ-nn-qDm"/>
+                    </constraints>
+                    <state key="normal" image="back_button0.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwt-Kt-jiT">
+                    <rect key="frame" x="277" y="555" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="Go:" destination="-1" eventType="touchUpInside" id="Xs3-LH-URl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.37262564627573747" green="0.88093806453338408" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="XEF-E3-JRI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="20x-NQ-9Uh"/>
+                <constraint firstItem="XEF-E3-JRI" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="5bR-Co-HtE"/>
+                <constraint firstItem="XEF-E3-JRI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-31" id="CoN-st-weM"/>
+                <constraint firstItem="AOy-U3-EeM" firstAttribute="leading" secondItem="XEF-E3-JRI" secondAttribute="leading" id="Iss-4D-9MC"/>
+                <constraint firstItem="XEF-E3-JRI" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" constant="-62" id="md4-EM-sq8"/>
+                <constraint firstItem="AOy-U3-EeM" firstAttribute="top" secondItem="XEF-E3-JRI" secondAttribute="top" id="tpN-6L-kTp"/>
+            </constraints>
+        </view>
+        <barButtonItem style="plain" systemItem="flexibleSpace" id="dcl-hY-d6R"/>
+    </objects>
+    <resources>
+        <image name="back_button0.png" width="40" height="40"/>
+    </resources>
+</document>

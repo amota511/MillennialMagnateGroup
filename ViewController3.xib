@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController3" customModule="MillennialMagnateGroup" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="p06-gi-g8q" customClass="ViewController3" customModule="MillennialMagnateGroup" customModuleProvider="target">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="Ewl-HD-uSU"/>
+                <viewControllerLayoutGuide type="bottom" id="R5g-Fd-onq"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="V4i-3D-06V">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stock Option 1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uTx-9b-OWS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    </imageView>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5t4-dL-unj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2bq-rH-UGu">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mys-8w-jq3">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="WDo-sM-m9j">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </view>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="600" id="b35-EQ-HPz"/>
+                                        <constraint firstAttribute="width" constant="600" id="h8a-95-wac"/>
+                                    </constraints>
+                                    <vibrancyEffect>
+                                        <blurEffect style="light"/>
+                                    </vibrancyEffect>
+                                </visualEffectView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Mys-8w-jq3" firstAttribute="top" secondItem="2bq-rH-UGu" secondAttribute="top" id="jN6-hN-pXC"/>
+                                <constraint firstItem="Mys-8w-jq3" firstAttribute="leading" secondItem="2bq-rH-UGu" secondAttribute="leading" id="r8Z-Jo-uBl"/>
+                            </constraints>
+                        </view>
+                        <vibrancyEffect>
+                            <blurEffect style="light"/>
+                        </vibrancyEffect>
+                    </visualEffectView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="uTx-9b-OWS" firstAttribute="bottom" secondItem="R5g-Fd-onq" secondAttribute="top" id="08r-OS-F1p"/>
+                    <constraint firstItem="5t4-dL-unj" firstAttribute="trailing" secondItem="uTx-9b-OWS" secondAttribute="trailing" id="2gM-Bq-exk"/>
+                    <constraint firstItem="uTx-9b-OWS" firstAttribute="top" secondItem="5t4-dL-unj" secondAttribute="top" id="7xZ-68-QTt"/>
+                    <constraint firstAttribute="trailing" secondItem="5t4-dL-unj" secondAttribute="trailing" id="CYo-7b-HcN"/>
+                    <constraint firstItem="uTx-9b-OWS" firstAttribute="top" secondItem="V4i-3D-06V" secondAttribute="top" id="PHz-Pb-MU9"/>
+                    <constraint firstItem="5t4-dL-unj" firstAttribute="bottom" secondItem="R5g-Fd-onq" secondAttribute="top" id="VOO-Yu-CpB"/>
+                    <constraint firstItem="uTx-9b-OWS" firstAttribute="leading" secondItem="5t4-dL-unj" secondAttribute="leading" id="rYu-fe-Ufh"/>
+                    <constraint firstItem="5t4-dL-unj" firstAttribute="leading" secondItem="V4i-3D-06V" secondAttribute="leading" id="tHt-Xd-C2j"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="342" y="285"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="Stock Option 1.jpg" width="534" height="401"/>
+    </resources>
+</document>
